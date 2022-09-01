@@ -14,7 +14,9 @@
       
       <guid>https://felypefranco.github.io/posts/fhs-linux/</guid>
       <description>Compreendendo o sistema de arquivos do Linux Vamos entender basicamente a importância de cada diretório que compõe o sistema.
-   RAIZ OU /:Diretório central, tudo do sistema está na raiz. Este diretório é como se fosse o C: do Windows.     /bin:Binário - Diretório onde fica os executáveis.   &amp;mdash;   /boot:Diretório onde fica os arquivos de inicialização do sistema, como por exemplo o kernel linux.</description>
+RAIZ OU /:Diretório central, tudo do sistema está na raiz. Este diretório é como se fosse o C: do Windows.|&amp;mdash;| /bin:Binário - Diretório onde fica os executáveis.|&amp;mdash;|
+/boot:Diretório onde fica os arquivos de inicialização do sistema, como por exemplo o kernel linux.|&amp;mdash;|
+   /dev:Device ou Dispositivo - Diretório onde fica os dispostivos do sistema, como por exemplo o HD.</description>
     </item>
     
   </channel>
