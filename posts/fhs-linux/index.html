@@ -5,12 +5,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Estrutura de diretórios do Linux (FHS) - Felype Franco</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta itemprop="name" content="Estrutura de diretórios do Linux (FHS)">
 <meta itemprop="description" content="Compreendendo o sistema de arquivos do Linux Vamos entender basicamente a importância de cada diretório que compõe o sistema.
-   RAIZ OU /:Diretório central, tudo do sistema está na raiz. Este diretório é como se fosse o C: do Windows.     /bin:Binário - Diretório onde fica os executáveis.    /boot:Diretório onde fica os arquivos de inicialização do sistema, como por exemplo o kernel linux."><meta itemprop="datePublished" content="2022-08-23T12:58:13-03:00" />
+   RAIZ OU /:Diretório central, tudo do sistema está na raiz. Este diretório é como se fosse o C: do Windows.     /bin:Binário - Diretório onde fica os executáveis.   &mdash;   /boot:Diretório onde fica os arquivos de inicialização do sistema, como por exemplo o kernel linux."><meta itemprop="datePublished" content="2022-08-23T12:58:13-03:00" />
 <meta itemprop="dateModified" content="2022-08-23T12:58:13-03:00" />
-<meta itemprop="wordCount" content="179">
+<meta itemprop="wordCount" content="194">
 <meta itemprop="keywords" content="" /><meta property="og:title" content="Estrutura de diretórios do Linux (FHS)" />
 <meta property="og:description" content="Compreendendo o sistema de arquivos do Linux Vamos entender basicamente a importância de cada diretório que compõe o sistema.
-   RAIZ OU /:Diretório central, tudo do sistema está na raiz. Este diretório é como se fosse o C: do Windows.     /bin:Binário - Diretório onde fica os executáveis.    /boot:Diretório onde fica os arquivos de inicialização do sistema, como por exemplo o kernel linux." />
+   RAIZ OU /:Diretório central, tudo do sistema está na raiz. Este diretório é como se fosse o C: do Windows.     /bin:Binário - Diretório onde fica os executáveis.   &mdash;   /boot:Diretório onde fica os arquivos de inicialização do sistema, como por exemplo o kernel linux." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://felypefranco.github.io/posts/fhs-linux/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-08-23T12:58:13-03:00" />
@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Estrutura de diretórios do Linux (FHS)"/>
 <meta name="twitter:description" content="Compreendendo o sistema de arquivos do Linux Vamos entender basicamente a importância de cada diretório que compõe o sistema.
-   RAIZ OU /:Diretório central, tudo do sistema está na raiz. Este diretório é como se fosse o C: do Windows.     /bin:Binário - Diretório onde fica os executáveis.    /boot:Diretório onde fica os arquivos de inicialização do sistema, como por exemplo o kernel linux."/>
+   RAIZ OU /:Diretório central, tudo do sistema está na raiz. Este diretório é como se fosse o C: do Windows.     /bin:Binário - Diretório onde fica os executáveis.   &mdash;   /boot:Diretório onde fica os arquivos de inicialização do sistema, como por exemplo o kernel linux."/>
 <link rel="stylesheet" type="text/css" media="screen" href="https://felypefranco.github.io/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://felypefranco.github.io/css/main.css" />
 
@@ -96,27 +96,94 @@
 <tr>
 <td><strong>/bin</strong>:Binário - Diretório onde fica os executáveis.</td>
 </tr>
-</tbody>
-</table>
-<p><strong>/boot</strong>:Diretório onde fica os arquivos de inicialização do sistema, como por exemplo o kernel linux.</p>
-<p><strong>/dev</strong>:Device ou Dispositivo - Diretório onde fica os dispostivos do sistema, como por exemplo o HD.</p>
-<p><strong>/etc</strong>:Diretório onde fica os arquivos de configuração.</p>
-<p><strong>/home</strong>:Diretório onde fica os arquivos do usuário.</p>
-<p><strong>/lib</strong>:Diretório onde fica as bibliotecas do sistema.</p>
-<p><strong>/media</strong>:Diretório de montagem, como por exemplo montagem de um pendrive.</p>
-<p><strong>/mnt</strong>:Diretório de montagem temporária.</p>
-<p><strong>/opt</strong>:Diretório opcional, geralmmente para instalar pacotes externos.</p>
-<p><strong>/root</strong>:Armazena os diretórios do usuário root. É basicamente o /home do usuário root.</p>
-<p><strong>/sbin</strong>:Binários do sistema - são os binários de utilização do usuário root.</p>
-<p><strong>/srv</strong>:Service - diretório para os serviços, como por exemplo um serviço ftp.</p>
-<p><strong>/tmp</strong>:Diretório de arquivos temporário.</p>
-<p><strong>/usr</strong>:Diretoŕio focado apenas nos usuários.</p>
-<table>
-<thead>
 <tr>
-<th><strong>/var</strong>:Diretório de variáveis - fica armazenado nesse diretório Cache, Log, Spool (impressão) e tmp`.</th>
+<td>&mdash;</td>
 </tr>
-</thead>
+<tr>
+<td><strong>/boot</strong>:Diretório onde fica os arquivos de inicialização do sistema, como por exemplo o kernel linux.</td>
+</tr>
+<tr>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>/dev</strong>:Device ou Dispositivo - Diretório onde fica os dispostivos do sistema, como por exemplo o HD.</td>
+</tr>
+<tr>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>/etc</strong>:Diretório onde fica os arquivos de configuração.</td>
+</tr>
+<tr>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>/home</strong>:Diretório onde fica os arquivos do usuário.</td>
+</tr>
+<tr>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>/lib</strong>:Diretório onde fica as bibliotecas do sistema.</td>
+</tr>
+<tr>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>/media</strong>:Diretório de montagem, como por exemplo montagem de um pendrive.</td>
+</tr>
+<tr>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>/mnt</strong>:Diretório de montagem temporária.</td>
+</tr>
+<tr>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>/opt</strong>:Diretório opcional, geralmmente para instalar pacotes externos.</td>
+</tr>
+<tr>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>/root</strong>:Armazena os diretórios do usuário root. É basicamente o /home do usuário root.</td>
+</tr>
+<tr>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>/sbin</strong>:Binários do sistema - são os binários de utilização do usuário root.</td>
+</tr>
+<tr>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>/srv</strong>:Service - diretório para os serviços, como por exemplo um serviço ftp.</td>
+</tr>
+<tr>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>/tmp</strong>:Diretório de arquivos temporário.</td>
+</tr>
+<tr>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>/usr</strong>:Diretoŕio focado apenas nos usuários.</td>
+</tr>
+<tr>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>/var</strong>:Diretório de variáveis - fica armazenado nesse diretório Cache, Log, Spool (impressão) e tmp`.</td>
+</tr>
+<tr>
+<td>&mdash;</td>
+</tr>
+</tbody>
 </table>
 
 			</div>
