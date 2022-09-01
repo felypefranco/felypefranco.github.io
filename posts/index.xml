@@ -13,8 +13,8 @@
       <pubDate>Tue, 23 Aug 2022 12:58:13 -0300</pubDate>
       
       <guid>https://felypefranco.github.io/posts/fhs-linux/</guid>
-      <description>Sistema de arquivos do Linux RAIZ OU /:Diretório central, tudo do sistema está na raiz. Este direito é como se fosse o C: do Windows.
-/bin:Binário - Diretório onde fica os executaveis.
+      <description>Compreendendo o sistema de arquivos do Linux RAIZ OU /:Diretório central, tudo do sistema está na raiz. Este diretório é como se fosse o C: do Windows.
+/bin:Binário - Diretório onde fica os executáveis.
 /boot:Diretório onde fica os arquivos de inicialização do sistema, como por exemplo o kernel linux.
 /Dev:Device ou Dispositivo - Diretório onde fica os dispostivos do sistema, como por exemplo o HD.
 /etc:Diretório onde fica os arquivos de configuração.</description>
