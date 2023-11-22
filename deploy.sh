@@ -3,9 +3,8 @@
 sudo git add --all
 
 sudo git commit -a \
-		-n \
-		--allow-empty \
-		--allow-empty-message 
+	--amend \
+	--no-edit
 
 sudo git push --all
 
