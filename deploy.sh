@@ -2,7 +2,9 @@
 
 sudo git add --all
 
-sudo git commit --allow-empty-message -a
+sudo git commit -a \
+	--no-status \
+	--allow-empty-message
 
 sudo git push --all
 
