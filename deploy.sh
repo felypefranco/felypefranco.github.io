@@ -3,7 +3,9 @@
 sudo git add --all
 
 sudo git commit -a \
-		-m "Deploy site"
+		-n \
+		--allow-empty \
+		--allow-empty-message 
 
 sudo git push --all
 
