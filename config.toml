@@ -1,4 +1,4 @@
 baseURL = 'https://felypefranco.github.io/'
 languageCode = 'en-us'
 title = 'Blog Linux-Devops'
-theme = "archie"
+theme = 'hugo-bearblog'
